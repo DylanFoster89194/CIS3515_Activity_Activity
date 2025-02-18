@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-/* Convert to RecyclerView.Adapter */
+
 class TextSizeAdapter(private val textSizes: Array<Int>, private val callback: (Int) -> Unit) :
     RecyclerView.Adapter<TextSizeAdapter.TextSizeViewHolder>() {
 
